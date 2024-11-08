@@ -5,15 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Enlaces de estilos css e icono de la pestaña-->
-
-    <title>Proyecto</title>
+    <link rel="icon" href="img/a.ico" type="image/x-icon">
+    
+    <title> Diseñando tu web, a tu estilo </title>
 </head>
 
 <body>
-    <!-- Barra fija de navegación; con logo, menú: nombre usuario y cerrar sesión-->
-    <header class="">
-    </header>
+    <!-- Barra fija de navegación; con logo, eslogan e iniciar sesión-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <a href="#" class="nav__logo">
+                <img src="./img/icon.png" alt="">
+            </a>
 
+            <p class="slogan">
+                CREANDO PRIMERAS IMPRESIONES
+            </p>
+
+            <div class="nav__login" id="nav-login">
+                <a href="/login.html" class="login">Iniciar sesión</a>
+            </div>
+
+            <!-- Menú de usuario iniciado, con varias opciones-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   <li><a href=" " class="nav__link">Cambiar contraseña</a></li>
+                   <li><a href=" " class="nav__link">Cerrar sesión</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <a href="./img/close.png" class="icon__close"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
     <!-- Todo el contenido principal del documento-->
     <main>
         <!-- Sección Banner-->
@@ -21,15 +49,15 @@
         </section>
 
         <!-- Sección Presentación de Empresa-->
-        <section class="empresa">
+        <section class="company">
         </section>
 
         <!-- Sección Servicios ofrecidos/cotización-->
-        <section class="servicio">
+        <section class="service">
         </section>
 
         <!-- Sección Reseñas-->
-        <section class="reseñas">
+        <section class="reviews">
             <!-- Reseñas de clientes-->
             <article>
             </article>
